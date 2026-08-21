@@ -8,4 +8,4 @@ elif last_digit == 0:
     last_number = " and is 0"
 else:
     last_number = " and is less than 6 and not 0"
-print("Last digit of " + str(number) + last_number)
+print("Last digit of " + str(number) +"is " + last_digit + last_number)
