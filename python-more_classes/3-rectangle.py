@@ -49,10 +49,8 @@ class Rectangle:
         else:
             return self.__width + self.__width + self.__height + self.__height
 
-    def my_print(self):
-        """Print the rectangle using the # character."""
+    def __str__(self):
+        """Return the rectangle representation using the # character."""
         if self.__width == 0 or self.__height == 0:
-            print()
-        else:
-            for i in range(self.__height):
-                print("#" * self.__width)
+            return ""
+        return "\n".join("#" * self.__width for _ in range(self.__height))
