@@ -6,4 +6,5 @@ python-data_structures
 python-more_data_structures
 python-exceptions
 python-classes
+python-more_classes
 
