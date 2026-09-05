@@ -5,4 +5,5 @@
 4-rectangle.py
 5-rectangle.py
 6-rectangle.py
+7-rectangle.py
 
