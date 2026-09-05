@@ -82,6 +82,6 @@ class Rectangle:
             return rect_2
 
     @classmethod
-        def square(cls, size=0):
-            """Return a rectangle where width is equal to height."""
-            return cls(size, size)
+    def square(cls, size=0):
+        """Return a rectangle where width is equal to height."""
+        return cls(size, size)
