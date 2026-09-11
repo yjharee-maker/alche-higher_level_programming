@@ -27,3 +27,20 @@ Check if original has not changed
 
 >>> print(my_list)
 [1, 4, 2, 3, 5]
+
+Check sorted with negative numbers
+
+>>> my_list = MyList([4, -2, 7, -5, 1])
+>>> my_list.print_sorted()
+[-5, -2, 1, 4, 7]
+
+Check that the original list has not changed
+
+>>> print(my_list)
+[4, -2, 7, -5, 1]
+
+Check print_sorted with an empty list
+
+>>> my_list = MyList()
+>>> my_list.print_sorted()
+[]
