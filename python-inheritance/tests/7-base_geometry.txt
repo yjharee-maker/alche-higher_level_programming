@@ -29,3 +29,49 @@ Test that a float raises TypeError:
 Traceback (most recent call last):
 ...
 TypeError: area must be an integer
+
+Test that area() raises an Exception:
+>>> bg.area()
+Traceback (most recent call last):
+...
+Exception: area() is not implemented
+
+Test that integer_validator() is present and validates values:
+>>> bg.integer_validator("my_int", 12)
+>>> bg.integer_validator("width", 0)
+Traceback (most recent call last):
+...
+ValueError: width must be greater than 0
+
+Test that integer_validator("age") validates the value:
+>>> bg.integer_validator("age", 25)
+
+Test that integer_validator() rejects a tuple:
+>>> bg.integer_validator("age", (4,))
+Traceback (most recent call last):
+...
+TypeError: age must be an integer
+
+Test that integer_validator() rejects a list:
+>>> bg.integer_validator("age", [3])
+Traceback (most recent call last):
+...
+TypeError: age must be an integer
+
+Test that integer_validator() rejects a boolean:
+>>> bg.integer_validator("age", True)
+Traceback (most recent call last):
+...
+TypeError: age must be an integer
+
+Test that integer_validator() rejects a set:
+>>> bg.integer_validator("age", {3, 4})
+Traceback (most recent call last):
+...
+TypeError: age must be an integer
+
+Test that integer_validator() rejects None:
+>>> bg.integer_validator("age", None)
+Traceback (most recent call last):
+...
+TypeError: age must be an integer
