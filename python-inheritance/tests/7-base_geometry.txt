@@ -75,3 +75,13 @@ Test that integer_validator() rejects None:
 Traceback (most recent call last):
 ...
 TypeError: age must be an integer
+
+Test that integer_validator() exists:
+>>> bg.integer_validator("age", 18)
+
+
+Test that integer_validator() requires value:
+>>> bg.integer_validator("age")
+Traceback (most recent call last):
+...
+TypeError: BaseGeometry.integer_validator() missing 1 required positional argument: 'value'
