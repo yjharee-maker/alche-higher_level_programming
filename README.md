@@ -8,4 +8,5 @@ python-exceptions
 python-classes
 python-more_classes
 python-everything_is_object
+python-inheritance
 
