@@ -2,4 +2,5 @@
 1-my_list.py
 2-is_same_class.py
 3-is_kind_of_class.py
+4-inherits_from.py
 
