@@ -1,2 +1,2 @@
-# List all databases in MySQL server
-mysql -hlocalhost -uroot -p"$MYSQL_PWD" -e "SHOW DATABASES;"
+-- List all databases in MySQL server
+SHOW DATABASES;
