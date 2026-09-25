@@ -11,4 +11,5 @@
 10-top_score.sql
 11-best_score.sql
 12-no_cheating.sql
+13-change_class.sql
 
