@@ -11,4 +11,5 @@ python-everything_is_object
 python-inheritance
 python-input_output
 SQL_introduction
+SQL_more_queries
 
