@@ -12,4 +12,5 @@
 11-best_score.sql
 12-no_cheating.sql
 13-change_class.sql
+14-average.sql
 
