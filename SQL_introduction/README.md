@@ -3,4 +3,6 @@
 2-remove_database.sql
 3-list_tables.sql
 4-first_table.sql
+5-full_table.sql
+6-list_values.sql
 
