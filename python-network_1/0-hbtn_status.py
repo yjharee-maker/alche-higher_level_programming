@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-"""Fetches and displays the status of a URL using urllib."""
 
 import urllib.request
 
